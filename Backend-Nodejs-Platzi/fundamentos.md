@@ -45,14 +45,23 @@
 
 - Herramienta para generar y gestionar tu proyecto rápido.
 - Comandos útiles:
+
   **Instalar Nest.js CLI: (Command line interface)** npm i -g @nestjs/cli
+
   **Nuevo proyecto: en el path actual** nest new nombre-proyecto
+
   nest generate module users
+
   nest generate controller users
+
   nest generate service users
+
   **Mostrar ayuda: en cualquier comando:**
+
   nest -h
+
   nest g -h
+
   nest g s nombre -h
 
 ## Ciclo de vida de la app
