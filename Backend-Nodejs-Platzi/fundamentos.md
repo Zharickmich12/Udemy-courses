@@ -1,6 +1,6 @@
 # ¿Qué es NestJS y por qué usarlo?
 
-- framework backend progresivo basado en Node.js y TypeScript. Usa arquitectura modular e inyección de dependencias.
+- Framework backend progresivo basado en Node.js y TypeScript. Usa arquitectura modular e inyección de dependencias.
 - Usa una arquitectura modular y orientada a clases.
 - **Su objetivo:** crear aplicaciones escalables, mantenibles y bien estructuradas.
 - **Por qué usarlo →** escalabilidad, mantenibilidad y estructura limpia.
@@ -60,9 +60,13 @@
 - NestJS inicializa módulos, inyecta dependencias y levanta el servidor con main.ts.
 
   async function bootstrap() {
+
   const app = await NestFactory.create(AppModule);
+
   await app.listen(3000);
+
   }
+
   bootstrap();
 
 ## Inyección de dependencias (DI)
@@ -71,13 +75,19 @@
 - Nest se encarga de crear e inyectar las instancias.
 
   @Injectable()
+
   export class UsersService {
+
   findAll() { return ['User1', 'User2']; }
+
   }
 
   @Controller('users')
+
   export class UsersController {
+
   constructor(private readonly usersService: UsersService) {}
+
   }
 
 ## Providers
@@ -87,9 +97,9 @@
 
 ## Pipes, Guards, Interceptors (visión general)
 
-**Pipes:** validan o transforman datos de entrada.
-**Guards:** controlan el acceso a rutas.
-**Interceptors:** modifican la respuesta o el flujo de ejecución.
+- **Pipes:** validan o transforman datos de entrada.
+- **Guards:** controlan el acceso a rutas.
+- **Interceptors:** modifican la respuesta o el flujo de ejecución.
 
 ## Buenas prácticas iniciales
 
