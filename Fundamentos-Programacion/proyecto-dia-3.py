@@ -22,3 +22,19 @@
 # 5. En cualquier otro caso, recomienda ver una película o serie. 
 
 # ESCRIBE LA SOLUCIÓN DE TU CÓDIGO AQUÍ DEBAJO :)
+
+
+clima = "soleado"
+hora = "mañana"
+estado_animo = "activo"
+
+if clima == "soleado" or clima == "nublado" and estado_animo == "activo":
+    print("Sugerencia: Hacer ejercicio")
+elif clima == "lluvioso" or not clima == "soleado":
+    print("Sugerencia: Leer un libro")
+elif hora == "noche" and estado_animo == "activo":
+    print("Sugerencia: Escuchar música animada")
+elif hora == "noche" and not estado_animo == "activo":
+    print("Sugerencia: Meditar")
+else:
+    print("Sugerencia: Ver una película o serie")
