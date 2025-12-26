@@ -37,3 +37,18 @@
 #  print ("codigo")
 # elif: abreviatura del if y el else, agrega otro conicional if
 # not: operador que invierte el valor lógico de una condición
+# bucles: iteracion, proceso que se repite varias veces
+# bucle for: repite una tarea un número determinado de veces
+# partes de un bucle for:
+# 1. inicialización: variable que controla el bucle
+# 2. condición: expresión lógica que se evalúa antes de cada iteración
+# 3. incremento: actualización de la variable de control después de cada iteración 
+# estructura de un bucle for:
+# for variable in range(inicio, fin, paso): 
+#   código a ejecutar
+# bucle while: repite una tarea mientras una condición sea verdadera
+# estructura de un bucle while:
+# while condición:                          
+#   código a ejecutar
+# break: instrucción que se utiliza para salir de un bucle antes de que haya terminado  
+# continue: instrucción que se utiliza para saltar a la siguiente iteración de un bucle
