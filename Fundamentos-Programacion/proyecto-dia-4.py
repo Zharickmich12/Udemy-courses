@@ -58,3 +58,22 @@
 #    Ejemplo: print(f"Operación finalizada. Tu saldo final es ${saldo}.")
 
 # Tu Código Aquí Debajo :)
+
+saldo = 100
+monto_a_retirar = 50
+
+while True:
+
+    monto_a_retirar = int(input("Ingrese el monto a retirar (0 para salir): "))
+
+    if monto_a_retirar == 0:
+        print(f"Operación finalizada. Tu saldo final es ${saldo}.")
+        break
+
+    if monto_a_retirar % 5 != 0:
+        print("Error: El monto a retirar debe ser múltiplo de 5.")
+    elif monto_a_retirar > saldo:
+        print("Error: No tienes suficiente saldo para realizar este retiro.")
+    else:
+        saldo -= monto_a_retirar
+        print(f"Retiro exitoso de ${monto_a_retirar}. Tu saldo actual es ${saldo}.")

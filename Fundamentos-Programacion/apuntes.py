@@ -52,3 +52,5 @@
 #   código a ejecutar
 # break: instrucción que se utiliza para salir de un bucle antes de que haya terminado  
 # continue: instrucción que se utiliza para saltar a la siguiente iteración de un bucle
+# input(): función que permite al usuario ingresar datos durante la ejecución del programa
+# int(): función que convierte un valor a un número entero
