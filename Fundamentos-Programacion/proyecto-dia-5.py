@@ -40,3 +40,39 @@
 
 # Escribe tu código aquí debajo :)
 
+lista_compras = ["Pan", "Leche", "Huevos"]
+
+def mostrar_lista():
+    print("Lista de compras actualizada:", lista_compras)
+
+def agregar_producto(nombre):
+    producto_existente = False
+    for producto in lista_compras:
+        if producto == nombre:
+            producto_existente = True
+            break  
+    if producto_existente:
+        print(f"El producto '{nombre}' ya está en la lista.")  
+    else:
+        lista_compras.append(nombre)
+        print(f"Producto '{nombre}' agregado a la lista.")
+
+def eliminar_producto(nombre):
+    producto_existente = False
+    for producto in lista_compras:
+        if producto == nombre:
+            producto_existente = True
+            break
+    if producto_existente:
+        lista_compras.remove(nombre)
+        print(f"Producto '{nombre}' eliminado de la lista.")
+    else:
+        print(f"El producto '{nombre}' no se encuentra en la lista.")
+
+mostrar_lista()
+
+#agregar_producto("Mantequilla")
+#mostrar_lista() 
+
+#eliminar_producto("Leche")
+#mostrar_lista()

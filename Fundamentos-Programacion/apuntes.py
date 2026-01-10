@@ -54,3 +54,25 @@
 # continue: instrucción que se utiliza para saltar a la siguiente iteración de un bucle
 # input(): función que permite al usuario ingresar datos durante la ejecución del programa
 # int(): función que convierte un valor a un número entero
+# float(): función que convierte un valor a un número decimal
+# str(): función que convierte un valor a una cadena de caracteres
+# funciones: bloque de código reutilizable que realiza una tarea específica
+# def nombre_funcion(parámetros): 
+#   código a ejecutar
+# return: instrucción que se utiliza para devolver un valor desde una función
+# estructuras de datos: formas de organizar y almacenar datos en la memoria de una computadora
+# arrays o listas: estructura de datos que permite almacenar múltiples valores en una sola variable
+# lista = [elemento1, elemento2, elemento3]
+# indices: posición de cada elemento en la lista, comenzando desde 0
+# cambiar valor de un elemento en una lista:
+# lista[indice] = nuevo_valor  
+# agregar elemento a una lista:
+# lista.append(nuevo_elemento)
+# eliminar elemento de una lista:
+# lista.remove(elemento)
+# eliminar el ultimo elemento de una lista:
+# lista.pop()   
+# for con listas:
+# for elemento in lista:
+#   código a ejecutar
+# len(): función que devuelve la cantidad de elementos en una lista
