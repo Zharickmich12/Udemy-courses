@@ -76,3 +76,22 @@
 # for elemento in lista:
 #   código a ejecutar
 # len(): función que devuelve la cantidad de elementos en una lista
+# objetos: estructura de datos que combina datos con comportamientos relacionados
+# un objeton tiene propiedades (atributos) y métodos (funciones)
+# definir un objeto:
+# class NombreObjeto:
+#   def __init__(self, propiedad1, propiedad2): 
+#     self.propiedad1 = propiedad1
+#     self.propiedad2 = propiedad2
+#  def metodo(self):            
+#     código a ejecutar
+# que es una propiedad: característica o atributo que describe al objeto
+# que es un método: función asociada a un objeto que define su comportamiento
+# crear una instancia de un objeto:
+# objeto = NombreObjeto(valor1, valor2)
+# acceder a una propiedad:
+# valor = objeto.propiedad1
+# llamar a un método:
+# objeto.metodo()
+# cambiar el valor de una propiedad:
+# objeto.propiedad1 = nuevo_valor
