@@ -9,7 +9,8 @@
 // typeof operador devuelve el tipo de dato de una variable
 console.log(typeof 'Asabeneh') // string
 console.log(typeof 5) // número
-console.log(typeof true ) // boolean
+console.log(typeof 
+    true ) // boolean
 console.log(typeof null) // tipo de objeto
 console.log(typeof undefined) // undefined
 
